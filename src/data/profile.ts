@@ -23,5 +23,7 @@ export const profile = {
   socials: {
     github: 'https://github.com/hasannaiem',
     linkedin: 'https://linkedin.com/in/hasannaiem509',
+    whatsapp: 'https://wa.me/8801629824770',
+    telegram: 'https://t.me/hasannaiem510',
   },
 }

@@ -1,5 +1,5 @@
 import { Mail } from 'lucide-react'
-import { GithubIcon, LinkedinIcon } from '../components/SocialIcons'
+import { GithubIcon, LinkedinIcon, WhatsAppIcon, TelegramIcon } from '../components/SocialIcons'
 import { profile } from '../data/profile'
 import SectionTitle from '../components/SectionTitle'
 import GlassCard from '../components/GlassCard'
@@ -17,6 +17,18 @@ const channels = [
     label: 'LinkedIn',
     value: 'in/hasannaiem509',
     href: profile.socials.linkedin,
+  },
+  {
+    icon: WhatsAppIcon,
+    label: 'WhatsApp',
+    value: '+880 1629 824770',
+    href: profile.socials.whatsapp,
+  },
+  {
+    icon: TelegramIcon,
+    label: 'Telegram',
+    value: '@hasannaiem510',
+    href: profile.socials.telegram,
   },
   {
     icon: GithubIcon,
