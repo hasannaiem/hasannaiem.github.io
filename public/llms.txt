@@ -1,0 +1,44 @@
+# Naiemul Hasan Naiem — SDET / Quality Engineer
+
+> Portfolio: https://iamnaiem.me
+> CV: https://iamnaiem.me/cv-naiemul-hasan-naiem.pdf
+
+## Who
+
+Naiemul Hasan Naiem (Naiem) is a Software Development Engineer in Test (SDET) and Quality Engineer at Tulip Tech, based in Dhaka, Bangladesh (UTC+6). CS Engineering graduate from AIUB (January 2024).
+
+## Core expertise
+
+- Test automation: Playwright + TypeScript (primary), Maestro (mobile YAML)
+- Architecture: 4-Tier POM (locators / pages / utils / tests) — zero raw selectors in spec files
+- API testing: Playwright request, Postman
+- Mobile testing: Maestro YAML flows
+- Test management: TestRail (Suite-based)
+- CI/CD: GitHub Actions, Allure reporting
+- AI-augmented workflow: test generation, failure triage, risk prediction
+
+## Impact metrics
+
+- 200+ critical defects caught pre-UAT
+- 1,000+ test cases across 4 client platforms
+- 95 Playwright specs authored
+- 4 enterprise platforms delivered
+
+## Projects delivered
+
+- Workforce Management Platform (enterprise HR, UAT phase)
+- Premium Wellness Booking App (React Native + NestJS + Stripe, London therapist platform)
+- AI Agent Provisioning Platform
+- FCA-Regulated Remittance App (UK fintech)
+
+## Contact
+
+- Email: naiem@iamnaiem.me
+- GitHub: https://github.com/hasannaiem
+- LinkedIn: https://linkedin.com/in/hasannaiem509
+- WhatsApp: https://wa.me/8801629824770
+- Telegram: https://t.me/hasannaiem510
+
+## Availability
+
+Open to SDET / Quality Engineer roles — remote or Dhaka.
