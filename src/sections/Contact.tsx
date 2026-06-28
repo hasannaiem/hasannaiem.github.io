@@ -1,5 +1,5 @@
 import { Mail } from 'lucide-react'
-import { GithubIcon, LinkedinIcon, StackOverflowIcon } from '../components/SocialIcons'
+import { GithubIcon, LinkedinIcon } from '../components/SocialIcons'
 import { profile } from '../data/profile'
 import SectionTitle from '../components/SectionTitle'
 import GlassCard from '../components/GlassCard'
@@ -23,12 +23,6 @@ const channels = [
     label: 'GitHub',
     value: '@hasannaiem',
     href: profile.socials.github,
-  },
-  {
-    icon: StackOverflowIcon,
-    label: 'Stack Overflow',
-    value: 'users/32112898',
-    href: profile.socials.stackoverflow,
   },
 ]
 

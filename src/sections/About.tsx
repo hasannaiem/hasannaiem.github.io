@@ -1,4 +1,6 @@
+import { GraduationCap, BookOpen } from 'lucide-react'
 import { profile } from '../data/profile'
+import { degrees, courses } from '../data/education'
 import SectionTitle from '../components/SectionTitle'
 import GlassCard from '../components/GlassCard'
 import ScrollReveal from '../components/ScrollReveal'
@@ -9,7 +11,7 @@ export default function About() {
       <div className="max-w-4xl mx-auto">
         <SectionTitle
           eyebrow="// ABOUT"
-          title="Senior-minded QA with a discipline obsession."
+          title="Shift-left quality engineering with a discipline obsession."
         />
 
         <div className="space-y-6">
@@ -37,6 +39,39 @@ export default function About() {
                 </div>
               </div>
             </GlassCard>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.4}>
+            <div className="mt-8 grid sm:grid-cols-2 gap-4">
+              {degrees.map((d) => (
+                <GlassCard key={d.institution} className="flex items-start gap-3">
+                  <div className="p-2 rounded-lg bg-accent-violet/10 text-accent-violet flex-shrink-0 mt-0.5">
+                    <GraduationCap size={16} />
+                  </div>
+                  <div>
+                    <div className="font-mono text-xs text-accent-violet uppercase tracking-wider mb-1">
+                      {d.period}
+                    </div>
+                    <div className="font-semibold text-sm text-ink-primary">{d.degree}</div>
+                    <div className="text-xs text-ink-muted mt-0.5">{d.shortInstitution} · {d.institution.split('–')[1]?.trim() ?? d.institution}</div>
+                  </div>
+                </GlassCard>
+              ))}
+              {courses.map((c) => (
+                <GlassCard key={c.name} className="flex items-start gap-3">
+                  <div className="p-2 rounded-lg bg-accent-blue/10 text-accent-blue flex-shrink-0 mt-0.5">
+                    <BookOpen size={16} />
+                  </div>
+                  <div>
+                    <div className="font-mono text-xs text-accent-blue uppercase tracking-wider mb-1">
+                      {c.period} · {c.duration}
+                    </div>
+                    <div className="font-semibold text-sm text-ink-primary">{c.name}</div>
+                    <div className="text-xs text-ink-muted mt-0.5">{c.provider}</div>
+                  </div>
+                </GlassCard>
+              ))}
+            </div>
           </ScrollReveal>
         </div>
       </div>

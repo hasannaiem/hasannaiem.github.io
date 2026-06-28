@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ArrowDown, Mail } from 'lucide-react'
+import { ArrowDown, Mail, Download } from 'lucide-react'
 import { GithubIcon, LinkedinIcon } from '../components/SocialIcons'
 import { profile } from '../data/profile'
 import TypingLine from '../components/TypingLine'
@@ -17,6 +17,21 @@ export default function Hero() {
           >
             // {profile.role} · {profile.location} · {profile.timezone}
           </motion.div>
+
+          {'availability' in profile && (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.35 }}
+              className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass border border-green-500/30 text-xs font-mono text-green-400 w-fit"
+            >
+              <span className="relative flex h-2 w-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-green-400" />
+              </span>
+              {(profile as typeof profile & { availability: string }).availability}
+            </motion.div>
+          )}
 
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
@@ -87,6 +102,21 @@ export default function Hero() {
             >
               <LinkedinIcon size={16} />
               LinkedIn
+            </a>
+            <a
+              href={profile.cvUrl}
+              download
+              className="
+                inline-flex items-center gap-2
+                px-6 py-3 rounded-full
+                glass border border-glass-border
+                hover:border-accent-violet/50
+                text-sm font-medium
+                transition-all duration-300
+              "
+            >
+              <Download size={16} />
+              Download CV
             </a>
           </motion.div>
         </div>

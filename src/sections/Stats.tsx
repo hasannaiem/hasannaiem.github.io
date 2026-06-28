@@ -3,10 +3,10 @@ import GlassCard from '../components/GlassCard'
 import { stagger, fadeUp } from '../lib/motion'
 
 const stats = [
-  { number: '100+', label: 'Specs authored' },
-  { number: '10', label: 'Layer methodology' },
-  { number: '4', label: 'Tier POM' },
-  { number: '600+', label: 'TCs in TestRail' },
+  { number: '200+', label: 'Critical defects caught pre-UAT' },
+  { number: '95', label: 'Playwright specs authored' },
+  { number: '1,000+', label: 'Test cases in TestRail' },
+  { number: '4', label: 'Client platforms delivered' },
 ]
 
 export default function Stats() {
