@@ -21,6 +21,16 @@ export interface SkillGroup {
 
 export const skillGroups: SkillGroup[] = [
   {
+    name: 'Manual Testing',
+    icon: ClipboardCheck,
+    items: [
+      'Test Case Design (10-Layer Coverage)',
+      'Exploratory Testing',
+      'Regression Testing',
+      'Bug Reporting & Retest Cycles',
+    ],
+  },
+  {
     name: 'Test Automation',
     icon: Wand2,
     items: [
@@ -29,6 +39,21 @@ export const skillGroups: SkillGroup[] = [
       'Visual Regression Testing',
       'Playwright Component Testing',
       'Serial Suite Isolation',
+    ],
+  },
+  {
+    name: 'Test Management',
+    icon: ClipboardCheck,
+    items: ['TestRail (Case Authoring, Run Management, RTM)', 'Jira', 'Confluence', 'Allure Reporting'],
+  },
+  {
+    name: 'Figma / Design QA',
+    icon: Monitor,
+    items: [
+      'Design-to-Build Comparison',
+      'Visual Regression Analysis',
+      'Spec-vs-Build Discrepancy Flagging',
+      'Component/Token Audits',
     ],
   },
   {
@@ -44,35 +69,52 @@ export const skillGroups: SkillGroup[] = [
     ],
   },
   {
-    name: 'AI-Augmented QA',
+    name: 'Security Testing',
+    icon: Shield,
+    items: ['RBAC & Permission Testing', 'OAuth Flow Validation', 'Auth Boundary Testing', 'Multi-Tenant Isolation'],
+  },
+  {
+    name: 'Domain — Fintech & Healthcare',
+    icon: Shield,
+    items: ['FCA / KYC / AML Compliance QA', 'Payment/Booking Integrity Testing', 'Patient/Financial Data Handling QA'],
+  },
+  {
+    name: 'AI-Driven Testing',
     icon: Bot,
     items: [
+      'AI-Assisted Test Plan Generation',
+      'AI-Assisted Test Case & Script Authoring',
+      'AI-Augmented Failure Triage',
+      'Risk Prediction',
       'Claude Code QA Agents',
-      'AI-Assisted Test Generation',
       'MCP-Driven QA Workflow',
       'Second Brain (Obsidian Vault)',
     ],
   },
   {
-    name: 'API & Performance',
-    icon: Network,
-    items: ['Postman', 'Newman', 'k6', 'REST API Testing', 'WebSocket Testing', 'SSE Stream Testing'],
-  },
-  {
-    name: 'Security & Compliance',
-    icon: Shield,
+    name: 'SDLC Engagement',
+    icon: Layers,
     items: [
-      'RBAC & Permission Testing',
-      'OAuth Flow Validation',
-      'FCA / KYC / AML Compliance QA',
-      'Multi-Tenant Isolation',
-      'Auth Boundary Testing',
+      'Requirement Gathering & Analysis',
+      'Test Planning',
+      'Requirement Harvesting (Jira/Confluence/Figma)',
+      'Test Execution (Manual + Automated)',
+      'Bug Filing & Retest',
+      'QA Sign-off',
+      'Release Readiness',
     ],
   },
   {
-    name: 'Test Management',
-    icon: ClipboardCheck,
-    items: ['TestRail', 'Jira', 'Confluence', 'Allure', 'Figma (Design QA)'],
+    name: 'API & Performance',
+    icon: Network,
+    items: [
+      'Postman',
+      'Newman',
+      'k6 (Load/Stress/Performance Testing)',
+      'REST API Testing',
+      'WebSocket Testing',
+      'SSE Stream Testing',
+    ],
   },
   {
     name: 'Browser & DevTools',
@@ -81,7 +123,7 @@ export const skillGroups: SkillGroup[] = [
       'Chrome DevTools',
       'Network Inspection',
       'Playwright Trace Viewer',
-      'Lighthouse Audits',
+      'Lighthouse Audits (Accessibility/a11y + Performance)',
       'Console Error Monitoring',
     ],
   },
@@ -97,7 +139,7 @@ export const skillGroups: SkillGroup[] = [
       '4-Tier POM Architecture',
       '10-Layer Test Design',
       'Risk-Based Testing',
-      'BMAD Sprint QA',
+      'BMAD (Build-Measure-Adjust-Deploy) Sprint QA',
       'Shift-Left QA',
     ],
   },

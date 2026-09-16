@@ -63,23 +63,22 @@ export const projects: Project[] = [
     name: 'SQA Fundamentals Portfolio',
     status: 'Public',
     domain: 'Manual Testing · API · Automation',
-    stack: ['Selenium', 'Postman', 'JMeter', 'Jira'],
+    stack: ['Playwright', 'Postman', 'JMeter', 'Jira'],
     summary:
-      'Public QA portfolio built during SQA training — manual test case writing, API testing with Postman, load testing with JMeter, and web automation with Selenium WebDriver.',
+      'Public QA portfolio built during SQA training — manual test case writing, API testing with Postman, load testing with JMeter, and web automation with Playwright.',
     problem:
       'Consolidate structured QA practice work into a publicly verifiable portfolio covering the full spectrum: manual, API, performance, and automation testing fundamentals.',
     approach: [
       'Designed and executed manual test cases across multiple demo applications.',
       'API testing with Postman — request chaining, assertions, environment variables.',
       'Load testing with JMeter — thread groups, ramp-up, response time analysis.',
-      'Web automation with Selenium WebDriver — locator strategies, test scripts.',
+      'Web automation with Playwright — locator strategies, test scripts.',
     ],
     wins: [
       'Publicly verifiable QA work — full methodology coverage in one repo.',
       'Foundation that evolved into the 4-tier POM Playwright architecture used in production.',
       'Demonstrates the manual → automation engineering progression.',
     ],
-    repoUrl: 'https://github.com/hasannaiem/SQA-Projects',
   },
   {
     id: 'wellness-booking',

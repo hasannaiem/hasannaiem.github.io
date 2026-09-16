@@ -1,21 +1,25 @@
-# Naiemul Hasan Naiem — SDET / Quality Engineer
+# Naiemul Hasan Naiem — QA Engineer
 
 > Portfolio: https://iamnaiem.me
 > CV: https://iamnaiem.me/cv-naiemul-hasan-naiem.pdf
 
 ## Who
 
-Naiemul Hasan Naiem (Naiem) is a Software Development Engineer in Test (SDET) and Quality Engineer at Tulip Tech, based in Dhaka, Bangladesh (UTC+6). CS Engineering graduate from AIUB (January 2024).
+Naiemul Hasan Naiem (Naiem) is a QA Engineer at Tulip Tech, based in Dhaka, Bangladesh (UTC+6). CS Engineering graduate from AIUB (Aug 2018 — Jan 2024). Career transition from network support (Race Online, Jun 2024 — Nov 2025) into QA (Tulip Tech, Dec 2025 — present).
 
 ## Core expertise
 
+- Manual testing: structured 10-layer test-case design, exploratory, regression, bug filing/retest
 - Test automation: Playwright + TypeScript (primary), Maestro (mobile YAML)
 - Architecture: 4-Tier POM (locators / pages / utils / tests) — zero raw selectors in spec files
 - API testing: Playwright request, Postman
 - Mobile testing: Maestro YAML flows
 - Test management: TestRail (Suite-based)
+- Figma / design QA: design-to-build comparison, spec-vs-build discrepancy flagging
+- Security testing: RBAC, OAuth, auth boundary, multi-tenant isolation
+- Domain: fintech (FCA/KYC/AML) and healthcare-adjacent (payment/booking integrity)
 - CI/CD: GitHub Actions, Allure reporting
-- AI-augmented workflow: test generation, failure triage, risk prediction
+- AI-driven workflow: requirement harvesting, test plan/case generation, failure triage, risk prediction
 
 ## Impact metrics
 
@@ -41,4 +45,4 @@ Naiemul Hasan Naiem (Naiem) is a Software Development Engineer in Test (SDET) an
 
 ## Availability
 
-Open to SDET / Quality Engineer roles — remote or Dhaka.
+Open to QA Engineer roles — remote or Dhaka.

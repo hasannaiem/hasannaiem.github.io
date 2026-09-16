@@ -18,7 +18,7 @@ export const degrees: Degree[] = [
     degree: 'Bachelor of Computer Science & Engineering',
     institution: 'American International University – Bangladesh',
     shortInstitution: 'AIUB',
-    period: 'Jan 2024',
+    period: 'Aug 2018 — Jan 2024',
     grade: 'CGPA 3.39 / 4.00',
   },
 ]
