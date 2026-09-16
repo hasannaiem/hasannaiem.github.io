@@ -46,7 +46,7 @@ export default function Experience() {
                   `}
                 />
 
-                <div className={onLeft ? 'md:pr-8 md:text-right' : 'md:order-2 md:pl-8'}>
+                <div className={onLeft ? 'md:pr-8 md:text-right md:col-start-1' : 'md:col-start-2 md:pl-8'}>
                   <GlassCard>
                     <div className="font-mono text-xs text-accent-violet uppercase tracking-wider mb-2">
                       {role.period}
